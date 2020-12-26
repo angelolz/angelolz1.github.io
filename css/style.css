@@ -17,6 +17,13 @@ font-family: 'Montserrat', sans-serif;
     animation: wave 1.5s cubic-bezier(0.37, 0, 0.63, 1) infinite alternate;
 }
 
+.social-group a:nth-child(1) img {animation-delay: 0ms;}
+.social-group a:nth-child(2) img {animation-delay: 250ms;}
+.social-group a:nth-child(3) img {animation-delay: 500ms;}
+.social-group a:nth-child(4) img {animation-delay: 750ms;}
+.social-group a:nth-child(5) img {animation-delay: 1000ms;}
+.social-group a:nth-child(6) img {animation-delay: 1250ms;}
+
 .zoom {
     transition: all .2s;
 }
