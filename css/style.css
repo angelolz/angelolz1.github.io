@@ -1,13 +1,42 @@
 body {
-/* background: #00F260;  /* fallback for old browsers */
-/* background: -webkit-linear-gradient(to left, #0575E6, #00F260);  /* Chrome 10-25, Safari 5.1-6 */
-/* background: linear-gradient(to left, #0575E6, #00F260); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background: #00F260;
+background: -webkit-linear-gradient(-45deg, #0575E6, #00F260, #0575E6);
+background: repeating-linear-gradient(-45deg, #0575E6, #00F260, #0575E6);
+background-size: 400% 400%;
+animation: gradient 30s ease infinite;
 font-family: 'Montserrat', sans-serif;
-/* color: white; */
+}
+
+.logo {
+    width: 20%;
+    height: auto;
+    transition: all 0.1s ease-in-out;
+    transform-origin: center;
+}
+
+.logo:hover {
+    transform: scale(1.1) rotate(5deg);
+
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 600%;
+    line-height: 30px;
+    height: 30px;
+    -webkit-text-stroke: 1px #0575E6;
+	text-shadow: 2px 5px 4px green;
+    margin-top: 3%;
+}
+
+p {
+    color: white;
+    font-size: 150%;
 }
 
 .social-group {
-    margin: 5px;
+    margin: 10px;
     height: auto;
 }
 
@@ -15,23 +44,38 @@ font-family: 'Montserrat', sans-serif;
     width: 64px;
     -webkit-animation: wave 1.5s cubic-bezier(0.37, 0, 0.63, 1) infinite alternate;
     animation: wave 1.5s cubic-bezier(0.37, 0, 0.63, 1) infinite alternate;
+    filter: drop-shadow(3px 3px 2px black);
+    transition: all 0.2s ease-in-out;
 }
 
-.social-group a:nth-child(1) img {animation-delay: 0ms;}
-.social-group a:nth-child(2) img {animation-delay: 250ms;}
-.social-group a:nth-child(3) img {animation-delay: 500ms;}
-.social-group a:nth-child(4) img {animation-delay: 750ms;}
-.social-group a:nth-child(5) img {animation-delay: 1000ms;}
-.social-group a:nth-child(6) img {animation-delay: 1250ms;}
-
-.zoom {
-    transition: all .2s;
-}
-.zoom:hover {
+.social-icon:hover {
     transform: scale(1.5);
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
-@keyframes wave {
-    from {transform:translateY(0)}
-    to {transform:translateY(5px)}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+@media only screen and (max-width:640px) {
+    .logo {
+        width: 80%;
+    }
+
+    .social-icon {
+        width: 85px;
+    }
+
+    .social-icon:hover {
+        transform: scale(1.3);
+    }
 }
