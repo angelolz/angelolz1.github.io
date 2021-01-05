@@ -1,7 +1,9 @@
 body {
+    background: -o-linear-gradient(135deg, #0575E6, #00F260, #0575E6);
     background: linear-gradient(-45deg, #0575E6, #00F260, #0575E6);
     background-size: 400% 400%;
-    animation: gradient 30s cubic-bezier(0.37, 0, 0.63, 1) infinite;
+    -webkit-animation: gradient 30s cubic-bezier(0.37, 0, 0.63, 1) infinite;
+            animation: gradient 30s cubic-bezier(0.37, 0, 0.63, 1) infinite;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -12,7 +14,11 @@ body {
     top: 50%;
     left: 50%;
     margin-right: -50%;
-    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 
@@ -31,11 +37,15 @@ body {
 .logo {
     width: 400px;
     height: auto;
+    -webkit-transition: all .4s cubic-bezier(0.68, -0.6, 0.32, 1.6);
+    -o-transition: all .4s cubic-bezier(0.68, -0.6, 0.32, 1.6);
     transition: all .4s cubic-bezier(0.68, -0.6, 0.32, 1.6);
 }
 
 .logo:hover {
-    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+            transform: scale(1.1);
 }
 
 /* social media icon stuff */
@@ -46,12 +56,17 @@ body {
 
 .social-icon {
     width: 64px;
-    filter: drop-shadow(3px 3px 2px black);
+    -webkit-filter: drop-shadow(3px 3px 2px black);
+            filter: drop-shadow(3px 3px 2px black);
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
 }
 
 .social-icon:hover {
-    transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+        -ms-transform: scale(1.5);
+            transform: scale(1.5);
     padding-left: 5px;
     padding-right: 5px;
 }
@@ -88,6 +103,18 @@ body {
     text-shadow: 2px 2px 2px green;
 }
 
+@-webkit-keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
 @keyframes gradient {
 	0% {
 		background-position: 0% 50%;
@@ -111,6 +138,8 @@ body {
         display: block;
         margin-left: auto;
         margin-right: auto;
+        padding-right: 0px;
+        padding-top: 100px;
     }
 
     .info-container {
@@ -119,6 +148,10 @@ body {
 
     .social-icon {
         width: 85px;
+    }
+
+    .social-group {
+        margin: 10px;
     }
 
     #name {
