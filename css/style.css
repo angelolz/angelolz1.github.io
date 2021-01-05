@@ -101,6 +101,7 @@ body {
 #credit {
     color: white;
     text-shadow: 2px 2px 2px green;
+    font-size:150%;
 }
 
 @-webkit-keyframes gradient {
