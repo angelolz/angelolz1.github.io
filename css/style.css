@@ -1,7 +1,7 @@
 body {
     background: linear-gradient(-45deg, #0575E6, #00F260, #0575E6);
     background-size: 400% 400%;
-    animation: gradient 5s cubic-bezier(0.37, 0, 0.63, 1) infinite;
+    animation: gradient 30s cubic-bezier(0.37, 0, 0.63, 1) infinite;
     font-family: 'Montserrat', sans-serif;
 }
 
