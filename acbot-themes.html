@@ -47,27 +47,6 @@
                         <p>Created by TuanKhang</p>
                         <p><i>ac!profile set background 4</i></p>
                     </span>
-                    <!-- <?php
-                        $total_themes = count(glob("themes/*", GLOB_ONLYDIR));
-                        for($i = 1; $i <= $total_themes; $i++)
-                        {
-                            $json = file_get_contents("themes/$i/theme.json");
-                            $arr = json_decode($json);
-                            $name = $arr -> theme_info -> name;
-                            $creators = $arr -> creators[0] -> name;
-                            if(count($arr-> creators) == 2)
-                            {
-                                $creators = $creators . " and " . $arr -> creators[1] -> name;
-                            }
-
-                            echo '<span class="theme-container">';
-                            echo "<img src=\"themes/$i/preview.png\"/>";
-                            echo "<p><b>$name</b></p>";
-                            echo "<p>Created by $creators</p>";
-                            echo "<p><i>ac!profile set background $i</i></p>";
-                            echo '</span>';
-                    }
-                    ?> -->
                 </div>
             </div>
         </div>
