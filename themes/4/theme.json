@@ -1,0 +1,21 @@
+{
+  "theme_info": {
+    "name": "Tết",
+    "body_color": "0x960000",
+    "comment_color": "0x9a8d6c",
+    "info_color": "0xfec619",
+    "birthday_color": "0xffa300",
+    "codes_color": "0xffffff"
+  },
+  "creators": [
+    {
+      "name": "TuanKhang",
+      "website": "",
+      "socials": [
+        "[Facebook](https://www.facebook.com/khxngho)",
+        "[Instagram](https://instagram.com/tkh.1198)",
+        "[Twitter](https://twitter.com/tkh1198)"
+      ]
+    }
+  ]
+}

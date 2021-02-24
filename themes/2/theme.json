@@ -1,0 +1,30 @@
+{
+  "theme_info": {
+    "name": "Classic Blue",
+    "body_color": "0x6fa8e1",
+    "comment_color": "0x9a8d6c",
+    "info_color": "0x4c2500",
+    "birthday_color": "0xeb7b01",
+    "codes_color": "0x4c2500"
+  },
+  "creators": [
+    {
+      "name": "Angelolz",
+      "website": "https://angelolz.dev",
+      "socials": [
+        "[Twitter](https://twitter.com/angelolz1)",
+        "[YouTube](https://youtube.com/c/angelolz1)",
+        "[Twitch](https://twitch.tv/angelolz1)",
+        "[Ko-Fi](https://ko-fi.com/angelolz)"
+      ]
+    },
+    {
+      "name": "Windocs",
+      "website": "",
+      "socials": [
+        "[Instagram](https://instagram.com/wind0cs)",
+        "[YouTube](https://www.youtube.com/channel/UCknhUKvy5WVV4Y-x-A0zqQw)"
+      ]
+    }
+  ]
+}

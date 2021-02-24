@@ -4,9 +4,16 @@ body {
     background-size: 400% 400%;
     -webkit-animation: gradient 30s cubic-bezier(0.37, 0, 0.63, 1) infinite;
             animation: gradient 30s cubic-bezier(0.37, 0, 0.63, 1) infinite;
-    font-family: 'Montserrat', sans-serif;
 }
 
+a, a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
 .content {
     float:left;
     position: absolute;
@@ -31,19 +38,6 @@ body {
 .info-container {
     display: inline-block;
     margin:auto;
-}
-
-a:link, a:visited {
-    color: white;
-    text-decoration: none;
-}
-
-a:hover {
-
-}
-
-a:active {
-
 }
 
 /* logo stuff */
@@ -96,7 +90,6 @@ a:active {
     border-radius: 50px;
     color: white;
     font-weight: bold;
-    font-family: 'Montserrat', sans-serif;
     font-size: 125%;
     transition: all 0.2s ease-in-out;
 }
