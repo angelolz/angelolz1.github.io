@@ -1,0 +1,21 @@
+{
+  "theme_info": {
+    "name": "Sea Shore",
+    "body_color": "0xc3b68e",
+    "comment_color": "0x9a8d6c",
+    "info_color": "0x4c2500",
+    "birthday_color": "0xeb7b01",
+    "codes_color": "0x4c2500"
+  },
+  "creators": [
+    {
+      "name": "Jan Aliya",
+      "website": "",
+      "socials": [
+        "[Twitter](https://twitter.com/janaliyaa)",
+        "[Instagram](https://www.instagram.com/pluma.onpaper/)",
+        "[YouTube](https://youtube.com/channel/UCyR5Xf--U99idc_ihCQB03w)"
+      ]
+    }
+  ]
+}
