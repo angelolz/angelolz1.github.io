@@ -6,7 +6,7 @@ if(typeof CCSE == 'undefined') Game.LoadMod('https://klattmose.github.io/CookieC
 DRP.name = "Rich Presence";
 DRP.id = "angelolz.drp";
 DRP.author = "angelolz";
-DRP.version = "v1.3";
+DRP.version = "v1.3.1";
 DRP.gameVersion = "2.052";
 
 //other global vars
@@ -332,11 +332,11 @@ function sendData()
 			"gc_clicks":"${DRP.nFormat(Game.goldenClicks)}",
 			"gc_missed":"${DRP.nFormat(Game.missedGoldenClicks)}",
 			"config": {
-				prestige_long_scale: ${DRP.config.PRESTIGE_LONG_SCALE},
-				cookies_long_scale: ${DRP.config.COOKIES_LONG_SCALE},
-				show_elapsed_time: ${DRP.config.SHOW_ELAPSED_TIME},
-				small_icon_mode: ${DRP.config.SMALL_ICON_MODE},
-				show_guide: ${DRP.config.SHOW_GUIDE}
+				"prestige_long_scale": ${DRP.config.PRESTIGE_LONG_SCALE},
+				"cookies_long_scale": ${DRP.config.COOKIES_LONG_SCALE},
+				"show_elapsed_time": ${DRP.config.SHOW_ELAPSED_TIME},
+				"small_icon_mode": ${DRP.config.SMALL_ICON_MODE},
+				"show_guide": ${DRP.config.SHOW_GUIDE}
 			}
 		}`);
 }
